@@ -1,0 +1,241 @@
+body {
+  line-height: 1.6;
+  color: gray;
+}
+
+ul {
+  list-style: none;
+}
+
+#news,
+#interview,
+#mainbisiness,
+#access {
+  padding: 60px 0;
+}
+
+.top--title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.more {
+  display: inline-block;
+  border: solid 2px;
+  color: #200ec7 !important;
+  background-color: white;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+
+.more a:hover {
+  color: white;
+  background-color: #200ec7;
+}
+
+header {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 70px;
+  padding: 0 30px;
+}
+
+header .header-logo {
+  font-size: 20px;
+}
+
+header ul {
+  font-size: 16px;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 35px;
+}
+
+header ul li a:hover {
+  color: blue;
+}
+
+#eyecatch {
+  background-image: url(./img/1521303170.png);
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#eyecatch .catch-copy {
+  font-weight: bold;
+}
+
+.news-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news-wrap li {
+  margin-top: 10px;
+}
+
+.news-wrap li span {
+  margin-right: 20px;
+}
+
+.news-wrap li a:hover {
+  text-decoration: underline;
+}
+
+.news-wrap li:first-child {
+  margin-top: 0;
+}
+
+#interview {
+  background-image: url(./img/S__32350210.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
+}
+
+#interview .interview--wrap {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 600px;
+  margin: 0 auto;
+  border: 2px solid;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#interview .interview--wrap p {
+  margin-top: 60px;
+}
+
+#interview .interview--wrap .more {
+  margin-top: 25px;
+}
+
+#mainbisiness .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#mainbisiness .wrap .business--item {
+  background-color: #fff;
+  border: 2px solid;
+  text-align: center;
+  width: 250px;
+  margin-top: 60px;
+  -webkit-box-shadow: 3px 10px;
+          box-shadow: 3px 10px;
+  padding: 20px 35px 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#mainbisiness .wrap .business--item span {
+  display: block;
+  font-size: 80px;
+  color: #200ec7;
+}
+
+#company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#company .company--info {
+  width: 50%;
+  height: 300px;
+  position: relative;
+}
+
+#company .company--info .filter {
+  background-color: rgba(129, 244, 225, 0.2);
+  height: 300px;
+  padding: 20px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#company .company--info .more {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+#company .company--info .company--title {
+  font-size: 25px;
+}
+
+#company .company--summary {
+  background-image: url(./img/virtualBg01-03.jpg);
+  background-size: cover;
+}
+
+#company .company--recruit {
+  background-image: url(./img/virtualBg03-03.jpg);
+  background-size: cover;
+}
+
+#access {
+  background-color: #eee;
+}
+
+#access .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+#access .wrap .map {
+  border: none;
+}
+
+#access .wrap .info {
+  font-size: 14px;
+}
+
+#access .wrap .info th {
+  width: 25%;
+}
+
+footer {
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+/*# sourceMappingURL=test.css.map */

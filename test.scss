@@ -1,0 +1,202 @@
+body {
+  line-height: 1.6;
+  color: gray;
+}
+
+ul {
+  list-style: none;
+}
+
+#news,
+#interview,
+#mainbisiness,
+#access {
+  padding: 60px 0;
+}
+
+.top--title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+// #news,
+// #mainbisiness,
+// #access
+.wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.more {
+  display: inline-block;
+  border: solid 2px;
+  color: rgb(32, 14, 199) !important;
+  background-color: white;
+  padding: 8px 20px;
+  font-weight: bold;
+  a:hover {
+    color: white;
+    background-color: #200ec7;
+    // hoverが聞いていないので後ほど確認
+  }
+}
+
+// 個別の記述
+
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 70px;
+  padding: 0 30px;
+  .header-logo {
+    font-size: 20px;
+  }
+  ul {
+    font-size: 16px;
+
+    li {
+      display: inline-block;
+      margin-left: 35px;
+      a:hover {
+        color: blue;
+      }
+    }
+  }
+}
+
+// eyecatch
+
+#eyecatch {
+  background-image: url(./img/1521303170.png);
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .catch-copy {
+    font-weight: bold;
+  }
+}
+
+// news
+
+.news-wrap {
+  display: flex;
+  justify-content: space-between;
+  li {
+    margin-top: 10px;
+    span {
+      margin-right: 20px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  li:first-child {
+    margin-top: 0;
+  }
+}
+
+#interview {
+  background-image: url(./img/S__32350210.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
+  .interview--wrap {
+    background-color: rgba(255, 255, 255, 0.9);
+    // background-color: #fff;
+    // opacity: 0.8;
+    width: 600px;
+    margin: 0 auto;
+    border: 2px solid;
+    text-align: center;
+    padding: 20px 0;
+    p {
+      // text-align: center;
+      margin-top: 60px;
+    }
+    .more {
+      margin-top: 25px;
+    }
+  }
+}
+
+#mainbisiness {
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    .business--item {
+      background-color: #fff;
+      border: 2px solid;
+      text-align: center;
+      width: 250px;
+      margin-top: 60px;
+      box-shadow: 3px 10px;
+      padding: 20px 35px 50px;
+      box-sizing: border-box;
+      span {
+        display: block;
+        font-size: 80px;
+        color: #200ec7;
+      }
+    }
+  }
+}
+
+#company {
+  display: flex;
+  justify-content: space-between;
+  .company--info {
+    width: 50%;
+    height: 300px;
+    position: relative;
+    .filter {
+      background-color: rgba(129, 244, 225, 0.2);
+      height: 300px;
+      padding: 20px 30px;
+      box-sizing: border-box;
+    }
+    .more {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+    }
+    .company--title {
+      font-size: 25px;
+    }
+  }
+  .company--summary {
+    background-image: url(./img/virtualBg01-03.jpg);
+    background-size: cover;
+  }
+  .company--recruit {
+    background-image: url(./img/virtualBg03-03.jpg);
+    background-size: cover;
+  }
+}
+
+#access {
+  background-color: #eee;
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    .map {
+      border: none;
+    }
+    .info {
+      font-size: 14px;
+      th {
+        width: 25%;
+      }
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
